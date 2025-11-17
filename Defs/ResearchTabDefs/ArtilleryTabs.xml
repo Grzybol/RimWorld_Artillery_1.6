@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ResearchTabDef>
+    <defName>ACP_ArtilleryTab</defName>
+    <label>Artillery command</label>
+    <description>Specialised military engineering projects that unlock remote bombardment options.</description>
+  </ResearchTabDef>
+</Defs>
