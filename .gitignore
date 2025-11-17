@@ -1,0 +1,5 @@
+Assemblies/*.dll
+Source/**/bin/
+Source/**/obj/
+Source/**/.vs/
+Source/**/References/*.dll

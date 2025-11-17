@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <CommandFireMapArtilleryLabel>Fire artillery strike</CommandFireMapArtilleryLabel>
+  <CommandFireMapArtilleryDesc>Initiate a long-range strike on a hostile settlement within {0} world tiles.</CommandFireMapArtilleryDesc>
+  <CommandFireMapArtilleryNoPower>The platform requires power.</CommandFireMapArtilleryNoPower>
+  <CommandFireMapArtilleryNoAmmo>The platform needs mortar shells before it can fire.</CommandFireMapArtilleryNoAmmo>
+  <CommandFireMapArtilleryInvalidTarget>Select a valid settlement.</CommandFireMapArtilleryInvalidTarget>
+  <CommandFireMapArtilleryMustTargetSettlement>Only settlements can be targeted.</CommandFireMapArtilleryMustTargetSettlement>
+  <CommandFireMapArtilleryCannotTargetColony>Cannot target your own colony.</CommandFireMapArtilleryCannotTargetColony>
+  <CommandFireMapArtilleryOutOfRange>Target is outside the {0}-tile range.</CommandFireMapArtilleryOutOfRange>
+  <LetterLabelMapArtilleryStrike>Artillery strike obliterated {0}</LetterLabelMapArtilleryStrike>
+  <LetterTextMapArtilleryStrike>The artillery platform reduced {0} to rubble from afar. Nothing remains of the settlement.</LetterTextMapArtilleryStrike>
+</LanguageData>

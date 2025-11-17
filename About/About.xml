@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+  <name>Artillery Command Platform</name>
+  <author>OpenAI</author>
+  <url>https://github.com/example/RimWorld_Artillery_1.6</url>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <packageId>openai.artillerycommand</packageId>
+  <modVersion>1.0.0</modVersion>
+  <description>
+    Adds a researchable remote artillery platform capable of bombarding nearby world settlements from up to 12 tiles away.
+  </description>
+</ModMetaData>
