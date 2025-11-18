@@ -9,18 +9,11 @@
       <li>Mortars</li>
     </prerequisites>
     <techLevel>Industrial</techLevel>
-    <researchTab>ACP_ArtilleryTab</researchTab>
     <researchViewX>2</researchViewX>
     <researchViewY>1</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
-    <tags>
-      <li>Artillery</li>
-    </tags>
-    <unlockDefs>
-      <li>ACP_ArtilleryPlatform</li>
-    </unlockDefs>
   </ResearchProjectDef>
 </Defs>

@@ -4,5 +4,8 @@
     <defName>ACP_ArtilleryTab</defName>
     <label>Artillery command</label>
     <description>Specialised military engineering projects that unlock remote bombardment options.</description>
+    <projects>
+      <li>ACP_ArtilleryCommand</li>
+    </projects>
   </ResearchTabDef>
 </Defs>

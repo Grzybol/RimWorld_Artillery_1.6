@@ -5,15 +5,13 @@
     <label>artillery command platform</label>
     <description>A stationary artillery rig that can be used to remotely bombard world map targets within 12 tiles.</description>
     <graphicData>
-      <texPath>Things/Building/Security/Mortar</texPath>
+      <texPath>Things/Building/Artillery/ArtilleryPlatform</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(3,3)</drawSize>
     </graphicData>
     <size>(3,3)</size>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
-    <pathCost>70</pathCost>
-    <fillPercent>0.5</fillPercent>
     <statBases>
       <WorkToBuild>20000</WorkToBuild>
       <MaxHitPoints>350</MaxHitPoints>
@@ -33,20 +31,17 @@
         <fuelLabel>shells</fuelLabel>
         <fuelCapacity>3</fuelCapacity>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-        <fuelConsumptionPerTickInRain>0</fuelConsumptionPerTickInRain>
-        <fuelConsumptionPerUse>1</fuelConsumptionPerUse>
         <initialFuelPercent>1</initialFuelPercent>
         <fuelFilter>
-          <thingDefs>
-            <li>MortarShell</li>
-          </thingDefs>
+          <thingCategories>
+            <li>MortarShells</li>
+          </thingCategories>
         </fuelFilter>
       </li>
     </comps>
     <building>
       <isEdifice>true</isEdifice>
       <claimable>true</claimable>
-      <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     </building>
     <designationCategory>Security</designationCategory>
     <minifiedDef>MinifiedThing</minifiedDef>
@@ -54,7 +49,7 @@
       <li>ACP_ArtilleryCommand</li>
     </researchPrerequisites>
     <constructEffect>ConstructMetal</constructEffect>
-    <uiIconPath>Things/Building/Security/Mortar</uiIconPath>
+    <uiIconPath>Things/Building/Artillery/ArtilleryPlatform_Menu</uiIconPath>
     <thingClass>RimWorldArtillery.Building_MapArtillery</thingClass>
   </ThingDef>
 </Defs>
